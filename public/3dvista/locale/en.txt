@@ -1,0 +1,118 @@
+#: locale=en
+
+## Action
+
+### URL
+PopupWebFrameBehaviour_7FAC7CFB_67C9_A66A_41C6_B8F0232E1CE9.url = https://www.mobileappslabs.com/fr/bienvenue/ 
+PopupWebFrameBehaviour_708A4E09_67DA_A5A9_41C3_B9A561BABDED.url = https://www.mobileappslabs.com/fr/bienvenue/ 
+
+## E-Learning
+
+### Question Screen
+quizQuestion_7165EEDA_6CD8_722F_41C9_F43A101DF3A1.ok = OK
+
+### Report Screen
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.title = - SCORE -
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.completion = Completed
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.questionsCorrect = Correct
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.downloadCSV = Download .csv
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.questionsIncorrect = Incorrect
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.items = Items Found
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.questions = Questions
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.repeat = Repeat
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.submitToLMS = Submit
+quizScore_715BDEDB_6CD8_7223_41CC_6A2813D5C515.elapsedTime = Time
+
+### Score Name
+score1.label = Score 1
+
+### Timeout Screen
+quizTimeout_7164FEDA_6CD8_722F_41CC_BC054EC8A555.title = - TIMEOUT -
+quizTimeout_7164FEDA_6CD8_722F_41CC_BC054EC8A555.repeat = Repeat
+quizTimeout_7164FEDA_6CD8_722F_41CC_BC054EC8A555.score = View Score
+
+## Hotspot
+
+### Text
+QuadHotspotPanoramaOverlayTextImage_73CB9543_6CA8_161D_41D9_0965A3CA8412.text = Fake Ship
+QuadHotspotPanoramaOverlayTextImage_71795076_6CD8_0EE7_41C3_3D132BB8D861.text = Instruction text You need to find the clues in the Museum
+QuadHotspotPanoramaOverlayTextImage_73F2CD5E_6CA8_3627_41C0_610E895DF836.text = Map
+QuadHotspotPanoramaOverlayTextImage_72D64D11_6CA8_763C_41D6_18293F5458AC.text = Morse Code
+QuadHotspotPanoramaOverlayTextImage_7296537F_6CA8_32E5_418A_5DF570B71AB4.text = Speed 
+QuadHotspotPanoramaOverlayTextImage_73B1C5FA_6CA8_11EC_41B5_8127D6CACA83.text = Wheel
+
+### URL
+FramePanoramaOverlay_7051B47B_67C7_A66A_41D4_542E0FEF8C49.url = https://www.mobileappslabs.com/fr/bienvenue/ 
+overlay_71C0F6B7_67C6_A2FA_41D7_617556C65D9E.url = https://www.mobileappslabs.com/fr/bienvenue/ 
+
+## Media
+
+### Audio
+audiores_4EB354F3_6C68_37FD_41CA_A5527D0DC4E7.mp3Url = media/audio_4CBBA505_6C58_1625_41CC_A995B06C94C0_en.mp3
+
+### Audio Subtitles
+
+### Image
+imlevel_4ED72DB6_6C68_1667_41D4_AAA473C0F064.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_1d50zrgz_en.webp
+imlevel_4ED6BD54_6C68_163B_41D0_D2122BD770F2.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_e9opjqhx_en.webp
+imlevel_4ED82DE3_6C68_161D_41A6_00F1892B7435.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_jed6ukti_en.webp
+imlevel_4ED56D24_6C68_161B_41CE_4F8CE04039E1.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_ngzibiz8_en.webp
+imlevel_4DA24BD3_6C68_123D_41BD_C0406B017C6D.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_ptrt777v_en.webp
+imlevel_4ED7ED8D_6C68_1625_41B2_6A336871C469.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_zxsnwikh_en.webp
+
+### Title
+panorama_E497C0CE_F6CE_3286_41E1_C870210091F1.label = 360Demo-Altar-NP1
+panorama_7129B866_7C9A_6945_41D4_66A8DC94760E.label = 360Demo-Expo-NP1
+panorama_71C13A34_7C9B_A8C5_41BC_A0E546E8BCB7.label = 360Demo-Expo-NP2
+panorama_71FE7E1E_7C9B_E8C5_41DA_C41318C0FD3D.label = 360Demo-Expo-NP3
+panorama_71C11333_7C9B_B8C3_41CF_E525232873FF.label = 360Demo-Expo-NP4
+panorama_71FBFC7F_7C9A_6943_41DB_0BC7CC434C76.label = 360Demo-Expo-NP5
+panorama_71FA76AF_7C9A_99C3_41C7_ECA569CBDD52.label = 360Demo-Expo-NP6
+panorama_71F68361_7C9A_BF7F_41D6_811390495E8E.label = 360Demo-Expo-NP7
+panorama_755A7E17_674A_E5B9_41D6_61DF92B56EEA.label = 360Demo-Museum-NP1
+panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204.label = 360Demo-Museum-NP1
+panorama_75FBE3F1_6CF8_31FD_41DA_1432535E97ED.label = 360Demo-Museum-NP2
+panorama_776B19DA_674B_6EAB_41D8_35228DD96181.label = 360Demo-Museum-NP2
+panorama_75EE67DF_6CF8_7225_41CD_491B04DC7E6E.label = 360Demo-Museum-NP3
+panorama_6E5FE295_628E_A9DB_41D5_0AB419B0EF48.label = 360Demo-Museum-NP3
+panorama_6E5FCBEB_628F_7F48_41C8_1B3196D2CA92.label = 360Demo-Museum-NP4
+panorama_75E39388_6CF8_122B_41BB_F8EFB81C0D8F.label = 360Demo-Museum-NP4
+panorama_6E56D83E_628F_D8C8_41CF_C44EF68BF044.label = 360Demo-Museum-NP5
+panorama_75F21EC4_6CF8_3224_41B9_39E525047D18.label = 360Demo-Museum-NP5
+panorama_7561E500_6CFB_F61B_41D1_F6A93F73B6A8.label = 360Demo-Museum-NP6
+panorama_6E455F20_628F_D8F8_41C2_0F7B4F0D465A.label = 360Demo-Museum-NP6
+panorama_75CD40E3_6CF8_0E1D_41D8_81BE9210E1B5.label = 360Demo-Museum-NP7
+panorama_7E135BE0_6C68_721B_41CF_93809AE6FB12.label = 360Demo-Museum-NP7
+panorama_6F8AFCC7_628D_B9B8_41D3_3423493BF5C7.label = 360Demo-Showroom-NP1
+model_7FC69B85_675B_629E_41CF_D297DBF35139.label = 360Demo-Titanic-Mdl-SpeedTelegraph-ALL
+video_705DA422_67D9_E59B_41D8_F19DF64118F4.label = Character-H4
+panorama_7184DABF_7C9D_A9C3_41D6_220DE33EC602.label = Lobby1
+panorama_710E62E6_7C9A_9945_41DA_46A9CF6239FE.label = Lobby2
+panorama_71E9B1B9_7C9A_9BCF_41C2_7DF0BF457427.label = Lobby3
+
+### Video
+videolevel_9CCFCC3C_9062_272F_41BC_DA957237FBF6.url = media/video_705DA422_67D9_E59B_41D8_F19DF64118F4_en.mp4
+videolevel_9CCFCC3C_9062_272F_41BC_DA957237FBF6.posterURL = media/video_705DA422_67D9_E59B_41D8_F19DF64118F4_poster_en.jpg
+
+### Video Subtitles
+
+## Skin
+
+### Button
+Button_4D37C4F9_6C78_F7ED_41D8_D852D1A647F6.label = NO
+Button_7B3CE3D7_6CB8_1225_41C2_DB2DCA213BF4.label = NO
+Button_7A5DE52A_6CB8_366F_41D4_8646C6529650.label = YES
+Button_4D3104F3_6C78_F7FD_41D2_35BA34A4A529.label = YES
+
+### Multiline Text
+HTMLText_4D3A24F0_6C78_F7FB_41DB_0A9AD8A1D245.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:16px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>Do you want </B></SPAN></SPAN></DIV><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>to leave the escape room experience?</B></SPAN></SPAN></DIV></div>
+HTMLText_7A6F5113_6CA8_0E3D_41C5_CF8024A69E53.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:16px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>Do you want </B></SPAN></SPAN></DIV><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>to start the escape room experience?</B></SPAN></SPAN></DIV></div>
+HTMLText_7A57D6D2_6CA8_123F_41D8_27AB81172B55.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_4D3A74EE_6C78_F7E7_41D9_C89F8CAB2541.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+
+## Tour
+
+### Description
+
+### Title
+tour.name = EXPO360
