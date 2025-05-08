@@ -1,12 +1,16 @@
 "use client";
 
+import { useRef } from "react";
 import OverlayContainer from "@/components/OverlayContainer";
 
 export default function Page() {
+  // <-- keep the ref nullable
+  const tourRef = useRef<HTMLIFrameElement | null>(null);
+
   return (
     <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
-      {/* 1) Embed the entire 3DVista tour via iframe */}
       <iframe
+        ref={tourRef}
         src="/3dvista/index.html"
         style={{
           position: "absolute",
@@ -20,7 +24,8 @@ export default function Page() {
         allow="vr; gyroscope; accelerometer"
       />
 
-      <OverlayContainer />
+      {/* pass the same ref down */}
+      <OverlayContainer iframeRef={tourRef} />
     </div>
   );
 }

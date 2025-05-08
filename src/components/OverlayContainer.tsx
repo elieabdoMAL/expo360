@@ -1,8 +1,13 @@
 "use client";
 
+import { RefObject } from "react";
 import MiniMap from "./MiniMap";
 
-export default function OverlayContainer() {
+interface Props {
+  iframeRef: RefObject<HTMLIFrameElement | null>;
+}
+
+export default function OverlayContainer({ iframeRef }: Props) {
   return (
     <div
       style={{
@@ -12,7 +17,7 @@ export default function OverlayContainer() {
         zIndex: 10,
       }}
     >
-      <MiniMap />
+      <MiniMap tourRef={iframeRef} />
       {/* future HUD widgets go here */}
     </div>
   );

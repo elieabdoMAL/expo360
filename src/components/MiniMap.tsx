@@ -1,66 +1,104 @@
-// src/components/MiniMap.tsx
 "use client";
 
-import { useEffect, useState } from "react";
+import { RefObject, useEffect, useState } from "react";
 import Image from "next/image";
 import { client } from "@/lib/contentfulClient";
 
-// Minimal interface for the fields we actually use
+type Hotspot = {
+  panoramaId: string;
+  x: number; // percent
+  y: number; // percent
+  label: string;
+};
+
 interface MapConfigFields {
-  smallMapImage: { fields: { file: { url: string } } };
-  fullMapImage: { fields: { file: { url: string } } };
+  smallMapImage: {
+    fields: { file: { url: string } };
+  };
+  fullMapImage: {
+    fields: {
+      file: {
+        url: string;
+        details: { image: { width: number; height: number } };
+      };
+    };
+  };
+  hotspots: Hotspot[];
 }
 
-export default function MiniMap() {
-  const [config, setConfig] = useState<MapConfigFields | null>(null);
-  const [expanded, setExpanded] = useState(false);
+interface Props {
+  tourRef: RefObject<HTMLIFrameElement | null>;
+}
+
+export default function MiniMap({ tourRef }: Props) {
+  const [cfg, setCfg] = useState<MapConfigFields | null>(null);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     client
       .getEntries({ content_type: "mapConfig", limit: 1, include: 1 })
       .then((res) => {
         if (!res.items.length) return;
-        // Cast via unknown to overcome TS's generic constraint check:
+        // cast to overcome Contentful’s generic constraint
         const entry = res.items[0] as unknown as { fields: MapConfigFields };
-        setConfig(entry.fields);
+        setCfg(entry.fields);
       })
-      .catch((err) => {
-        console.error("MiniMap: fetch error", err);
-      });
+      .catch((err) => console.error("MiniMap: fetch error", err));
   }, []);
 
-  if (!config) return null;
+  if (!cfg) return null;
 
-  // Normalize URLs
-  let smallUrl = config.smallMapImage.fields.file.url;
-  let fullUrl = config.fullMapImage.fields.file.url;
+  let smallUrl = cfg.smallMapImage.fields.file.url;
+  let fullUrl = cfg.fullMapImage.fields.file.url;
   if (!smallUrl.startsWith("http")) smallUrl = `https:${smallUrl}`;
   if (!fullUrl.startsWith("http")) fullUrl = `https:${fullUrl}`;
 
+  const { width, height } = cfg.fullMapImage.fields.file.details.image;
+  const ratio = height / width;
+
+  const goTo = (panoramaId: string) => {
+    console.log("[MiniMap] click →", panoramaId);
+    const win = tourRef.current?.contentWindow;
+    if (!win) {
+      console.warn("[MiniMap] no iframe contentWindow!");
+      return;
+    }
+    const msg = { type: "goto-panorama", panoramaId };
+    console.log("[MiniMap] will postMessage →", msg, "to iframe window:", win);
+    win.postMessage(msg, window.location.origin);
+    console.log("[MiniMap] posted goto-panorama to iframe");
+  };
+
   return (
     <>
-      {/* Thumbnail */}
-      <Image
-        src={smallUrl}
-        alt="Mini Map"
-        width={100}
-        height={100}
+      {/* thumbnail */}
+      <div
+        onClick={() => setOpen(true)}
         style={{
           position: "absolute",
           top: 20,
           right: 20,
-          cursor: "pointer",
           zIndex: 20,
-          border: "2px solid rgba(255,255,255,0.8)",
-          borderRadius: 4,
           pointerEvents: "auto",
+          cursor: "pointer",
         }}
-        onClick={() => setExpanded(true)}
-      />
+      >
+        <Image
+          src={smallUrl}
+          alt="Mini Map"
+          width={100}
+          height={100}
+          style={{
+            border: "2px solid rgba(255,255,255,0.8)",
+            borderRadius: 4,
+          }}
+        />
+      </div>
 
-      {/* Expanded overlay */}
-      {expanded && (
+      {/* expanded */}
+      {open && (
         <div
+          onClick={() => setOpen(false)}
           style={{
             position: "absolute",
             inset: 0,
@@ -72,16 +110,50 @@ export default function MiniMap() {
             pointerEvents: "auto",
           }}
         >
-          <div style={{ position: "relative", width: "80vw", height: "80vh" }}>
+          <div
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              position: "relative",
+              width: "80vw",
+              height: `calc(80vw * ${ratio})`,
+            }}
+          >
             <Image
               src={fullUrl}
               alt="Full Map"
               fill
-              style={{ objectFit: "cover", borderRadius: 4 }}
+              style={{ objectFit: "contain", borderRadius: 4 }}
             />
 
+            {/* hotspots */}
+            {cfg.hotspots.map((hs) => (
+              <button
+                key={hs.panoramaId}
+                onClick={() => goTo(hs.panoramaId)}
+                title={hs.label}
+                style={{
+                  position: "absolute",
+                  top: `${hs.y}%`,
+                  left: `${hs.x}%`,
+                  transform: "translate(-50%, -50%)",
+                  background: "white",
+                  border: "none",
+                  borderRadius: "50%",
+                  width: 24,
+                  height: 24,
+                  cursor: "pointer",
+                  pointerEvents: "auto",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                •
+              </button>
+            ))}
+
             <button
-              onClick={() => setExpanded(false)}
+              onClick={() => setOpen(false)}
               style={{
                 position: "absolute",
                 top: 10,
