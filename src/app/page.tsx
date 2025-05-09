@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import OverlayContainer from "@/components/OverlayContainer";
+import WidgetOverlay from "@/components/WidgetOverlay";
 
 export default function Page() {
   // <-- keep the ref nullable
@@ -26,6 +27,7 @@ export default function Page() {
 
       {/* pass the same ref down */}
       <OverlayContainer iframeRef={tourRef} />
+      <WidgetOverlay />
     </div>
   );
 }
