@@ -53,9 +53,6 @@ export default function MiniMap({ tourRef }: Props) {
   if (!smallUrl.startsWith("http")) smallUrl = `https:${smallUrl}`;
   if (!fullUrl.startsWith("http")) fullUrl = `https:${fullUrl}`;
 
-  const { width, height } = cfg.fullMapImage.fields.file.details.image;
-  const ratio = height / width;
-
   const goTo = (panoramaId: string) => {
     console.log("[MiniMap] click →", panoramaId);
     const win = tourRef.current?.contentWindow;
@@ -114,8 +111,8 @@ export default function MiniMap({ tourRef }: Props) {
             onClick={(e) => e.stopPropagation()}
             style={{
               position: "relative",
-              width: "80vw",
-              height: `calc(80vw * ${ratio})`,
+              width: "90vw",
+              height: "90vh",
             }}
           >
             <Image
@@ -139,8 +136,8 @@ export default function MiniMap({ tourRef }: Props) {
                   background: "white",
                   border: "none",
                   borderRadius: "50%",
-                  width: 24,
-                  height: 24,
+                  width: 14,
+                  height: 14,
                   cursor: "pointer",
                   pointerEvents: "auto",
                   display: "flex",
