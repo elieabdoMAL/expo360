@@ -1,11 +1,13 @@
+// src/app/page.tsx
 "use client";
 
 import { useRef } from "react";
+
 import OverlayContainer from "@/components/OverlayContainer";
 import WidgetOverlay from "@/components/WidgetOverlay";
 
 export default function Page() {
-  // <-- keep the ref nullable
+  // keep the iframe ref nullable
   const tourRef = useRef<HTMLIFrameElement | null>(null);
 
   return (

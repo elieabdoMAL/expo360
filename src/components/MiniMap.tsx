@@ -73,8 +73,8 @@ export default function MiniMap({ tourRef }: Props) {
         onClick={() => setOpen(true)}
         style={{
           position: "absolute",
-          top: 20,
-          right: 20,
+          bottom: 25,
+          left: 25,
           zIndex: 20,
           pointerEvents: "auto",
           cursor: "pointer",

@@ -1,5 +1,27 @@
 #: locale=en
 
+## Action
+
+### URL
+LinkBehaviour_08AD4CA9_1BA8_325D_4199_9DFF41DD3861.source = https://360shoppingv3.mobileappslabs.ca/index.html?media-index=0
+LinkBehaviour_3AF3131D_2045_4205_41B5_012D3FEDBE44.source = https://looking4.mobileappslabs.ca/
+LinkBehaviour_3B695998_204D_4E0B_414A_CDEA5FB62388.source = https://meet.google.com/rde-wauz-ybt
+LinkBehaviour_39DF5895_207D_CE05_41B7_BA75587F5BA6.source = https://meet.google.com/tnt-fgsg-hsb
+LinkBehaviour_EA9C1A11_FC42_5EDD_41DF_2E14C52FB923.source = https://meet.google.com/tnt-fgsg-hsb
+LinkBehaviour_FA545648_D815_1B04_41D8_1C6B8871DCC0.source = https://meet.google.com/udw-dftz-fzi
+LinkBehaviour_3B797512_204D_461F_41B6_5606C0FF60DD.source = https://mobileappslabs.com
+LinkBehaviour_EA9CAA10_FC42_5EDB_41E4_575314DB1AC9.source = https://mobileappslabs.com
+LinkBehaviour_344B2A4C_204F_420B_418B_7BEC56806653.source = https://www.koenigsegg.com/model/jesko-attack
+LinkBehaviour_EA9C6A11_FC42_5EDD_41ED_4791284384F0.source = mailto:admin360@mobileappslabs.com
+LinkBehaviour_3A60C675_204F_4205_4191_C5A9D046595F.source = mailto:admin360@mobileappslabs.com
+LinkBehaviour_3942281D_207B_4E05_41B7_351901723E9F.source = mailto:info@ajis.ca
+LinkBehaviour_393163B1_2045_C21D_41BC_DE481CACE14C.source = mailto:info@ajis.ca
+LinkBehaviour_0FB2352E_1C17_A6BC_41A4_956CFB960AFD.source = mailto:nbastien@mobileappslabs.com
+LinkBehaviour_0F9B7AC9_1C10_E3E4_41B4_71BD17BB083E.source = mailto:nbastien@mobileappslabs.com
+LinkBehaviour_EA9CDA11_FC42_5EDD_41C1_813D177BEEB9.source = tel:+15145732324
+LinkBehaviour_3CB498D8_204C_CE0A_4180_0142E6989FE0.source = tel:+15145732324
+LinkBehaviour_3A46C346_207F_4206_41BA_F9BBE564C70F.source = tel:+15793789630
+
 ## E-Learning
 
 ### Question Screen
@@ -28,76 +50,157 @@ quizTimeout_7164FEDA_6CD8_722F_41CC_BC054EC8A555.score = View Score
 ## Hotspot
 
 ### Text
-QuadHotspotPanoramaOverlayTextImage_73CB9543_6CA8_161D_41D9_0965A3CA8412.text = Fake Ship
-QuadHotspotPanoramaOverlayTextImage_71795076_6CD8_0EE7_41C3_3D132BB8D861.text = Instruction text You need to find the clues in the Museum
-QuadHotspotPanoramaOverlayTextImage_73F2CD5E_6CA8_3627_41C0_610E895DF836.text = Map
-QuadHotspotPanoramaOverlayTextImage_72D64D11_6CA8_763C_41D6_18293F5458AC.text = Morse Code
-QuadHotspotPanoramaOverlayTextImage_7296537F_6CA8_32E5_418A_5DF570B71AB4.text = Speed 
-QuadHotspotPanoramaOverlayTextImage_73B1C5FA_6CA8_11EC_41B5_8127D6CACA83.text = Wheel
+QuadHotspotPanoramaOverlayTextImage_72D64D11_6CA8_763C_41D6_18293F5458AC.text = A cry for help at night, beeping out of sight.
+QuadHotspotPanoramaOverlayTextImage_73F2CD5E_6CA8_3627_41C0_610E895DF836.text = A dot in the sea, where lies a great tragedy.
+QuadHotspotPanoramaOverlayTextImage_7296537F_6CA8_32E5_418A_5DF570B71AB4.text = Ice isn't nice, go port side!
+HotspotPanoramaOverlayTextImage_CEDC4417_D813_E0A1_41E8_4CF77C0ABE00.text = Look around: press and hold left button and move the mouse. \
+ \
+Navigate: click where you want to go. \
+Or use arrow keys on your keyboard. \
+Or click on the minimap to teleport \
+ \
+For more help: click on the chat icon at the bottom right. \
+ \
+Enjoy!
+QuadHotspotPanoramaOverlayTextImage_73CB9543_6CA8_161D_41D9_0965A3CA8412.text = One of four is not blowing in the wind. 
+QuadHotspotPanoramaOverlayTextImage_73B1C5FA_6CA8_11EC_41B5_8127D6CACA83.text = To fast is the hare, only the turtle gets there.
+HotspotPanoramaOverlayTextImage_CD43184E_D815_20A3_41E9_7EAE57839F3C.text = Welcome!       \
+Click on me for more info...
+
+### URL
+overlay_0FCF4448_1C11_A6E4_41B9_48B6BF5DB5EC.url = https://www.twitch.tv/videos/2277823740
 
 ## Media
 
 ### Audio
-audiores_4EB354F3_6C68_37FD_41CA_A5527D0DC4E7.mp3Url = media/audio_4CBBA505_6C58_1625_41CC_A995B06C94C0_en.mp3
+audiores_044E91EC_16C7_1B52_41AC_2BC7866E840B.mp3Url = media/audio_0617EC39_16C1_0933_41AE_F07D24037C64_en.mp3
+audiores_070C26DD_1194_97C9_41A8_C0AC1A92CF7B.mp3Url = media/audio_0670233F_10AC_8E49_41A3_B7C33D40E978_en.mp3
+audiores_070EA876_1194_9ADA_4190_965FD3303667.mp3Url = media/audio_0679548F_10AC_8A4A_4196_AFE8FF4DDF51_en.mp3
+audiores_070FA7A1_1194_9679_418B_E7AE14EF3C2C.mp3Url = media/audio_067AC3F6_10AC_8DDB_41B0_4CE4DA073520_en.mp3
+audiores_07082A8B_1194_9E49_419D_493922E94EBA.mp3Url = media/audio_067D8612_10AC_B65B_41AC_5AC5421098B9_en.mp3
+audiores_0709A916_1194_9A5B_41A6_278A4CC3B44F.mp3Url = media/audio_067FA547_10AC_8A39_419A_E417FF47F2EC_en.mp3
+audiores_044AF427_16C7_18DF_4196_D44CE8EDBA2C.mp3Url = media/audio_1902E3A7_16C3_1FDF_41A3_DF5D3C1A8307_en.mp3
 
 ### Audio Subtitles
 
 ### Image
-imlevel_4ED72DB6_6C68_1667_41D4_AAA473C0F064.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_1d50zrgz_en.webp
-imlevel_4ED6BD54_6C68_163B_41D0_D2122BD770F2.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_e9opjqhx_en.webp
-imlevel_4ED82DE3_6C68_161D_41A6_00F1892B7435.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_jed6ukti_en.webp
-imlevel_4ED56D24_6C68_161B_41CE_4F8CE04039E1.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_ngzibiz8_en.webp
-imlevel_4DA24BD3_6C68_123D_41BD_C0406B017C6D.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_ptrt777v_en.webp
-imlevel_4ED7ED8D_6C68_1625_41B2_6A336871C469.url = media/panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204_HS_zxsnwikh_en.webp
+imlevel_0F2AE50A_11B4_8A4B_41A7_D19F58BE4AD5.url = media/panorama_F9A17E59_F787_352E_41E7_D751DC536FB3_HS_1d50zrgz_en.webp
+imlevel_0F2C849E_11B4_8A4B_41A4_328CE3969CDE.url = media/panorama_F9A17E59_F787_352E_41E7_D751DC536FB3_HS_e9opjqhx_en.webp
+imlevel_0F292541_11B4_8A39_418A_6D5C4EE5FA4C.url = media/panorama_F9A17E59_F787_352E_41E7_D751DC536FB3_HS_jed6ukti_en.webp
+imlevel_0F2ED45F_11B4_8AC9_4198_74D6B549E61D.url = media/panorama_F9A17E59_F787_352E_41E7_D751DC536FB3_HS_ngzibiz8_en.webp
+imlevel_0F2BA4D1_11B4_8BD9_4199_9C8D43ED6CDE.url = media/panorama_F9A17E59_F787_352E_41E7_D751DC536FB3_HS_zxsnwikh_en.webp
+imlevel_01FF4401_10AD_8A39_4133_EE93AB2EADCE.url = media/panorama_FA48DC6A_F77F_55E2_41DC_1B950D7CFB93_HS_ao1a2fjj_en.webp
+imlevel_005605A7_10AD_8A7A_41AD_FF4A27824617.url = media/panorama_FAD8E640_F77F_351E_41E4_5E4E0511A6F8_HS_yl9qqb6m_en.webp
+imlevel_01772511_16BE_F8F3_4192_2ACDF9061160.url = media/popup_0131EABE_16C3_0931_419B_A7C214FAE77D_en_0_0.webp
+imlevel_01762511_16BE_F8F3_41AF_867C652BD20F.url = media/popup_0131EABE_16C3_0931_419B_A7C214FAE77D_en_0_1.webp
+imlevel_01764511_16BE_F8F3_41B4_78064ECE78D6.url = media/popup_0131EABE_16C3_0931_419B_A7C214FAE77D_en_0_2.webp
+imlevel_0182C8D5_1643_0973_41A9_72B9C69B9927.url = media/popup_0317B3A4_1643_1FD1_41B5_E18BC251AAAF_en_0_0.webp
+imlevel_0182F8D5_1643_0973_4189_32DD92942F9D.url = media/popup_0317B3A4_1643_1FD1_41B5_E18BC251AAAF_en_0_1.webp
+imlevel_018298D5_1643_0973_4191_F752143C64EC.url = media/popup_0317B3A4_1643_1FD1_41B5_E18BC251AAAF_en_0_2.webp
+imlevel_018C8F9A_1643_07F1_41AC_1664BF32E3C4.url = media/popup_031A0E31_1647_0933_41A7_2B6DF9E74224_en_0_0.webp
+imlevel_018CBF9A_1643_07F1_41A7_7FB608476CAE.url = media/popup_031A0E31_1647_0933_41A7_2B6DF9E74224_en_0_1.webp
+imlevel_018C5F9A_1643_07F1_41A4_D8070B1A3101.url = media/popup_031A0E31_1647_0933_41A7_2B6DF9E74224_en_0_2.webp
+imlevel_0174431B_1643_38F7_4194_7AF9A5710CEB.url = media/popup_03557BD5_1647_0F73_4193_B9EF459B25CA_en_0_0.webp
+imlevel_0174531C_1643_38F1_4177_4D47665766CA.url = media/popup_03557BD5_1647_0F73_4193_B9EF459B25CA_en_0_1.webp
+imlevel_0174031C_1643_38F1_41AA_73E2698774C1.url = media/popup_03557BD5_1647_0F73_4193_B9EF459B25CA_en_0_2.webp
+imlevel_0170F16C_1643_3B52_41A9_C556306847B7.url = media/popup_035E1573_1647_3B37_41AE_CBF7AAE8ED78_en_0_0.webp
+imlevel_0170D16C_1643_3B52_419E_B3D6DF865E60.url = media/popup_035E1573_1647_3B37_41AE_CBF7AAE8ED78_en_0_1.webp
+imlevel_0170B16C_1643_3B52_4187_06B4EC3A32B2.url = media/popup_035E1573_1647_3B37_41AE_CBF7AAE8ED78_en_0_2.webp
+imlevel_01880E0D_1643_08D3_417E_94F98CE7CC28.url = media/popup_035EC121_1641_18D3_4190_3A44C4034EEA_en_0_0.webp
+imlevel_01882E0E_1643_08D1_41AC_A06EDDE3228E.url = media/popup_035EC121_1641_18D3_4190_3A44C4034EEA_en_0_1.webp
+imlevel_0189CE0E_1643_08D1_41AB_3CE7549F1D04.url = media/popup_035EC121_1641_18D3_4190_3A44C4034EEA_en_0_2.webp
+imlevel_01813ADD_1643_0973_41A3_EA72AF780AFF.url = media/popup_035EFCED_1641_0953_41B3_A79957FFFEF6_en_0_0.webp
+imlevel_01812ADD_1643_0973_41B6_7C1F36394E85.url = media/popup_035EFCED_1641_0953_41B3_A79957FFFEF6_en_0_1.webp
+imlevel_0186CADD_1643_0973_4191_B84D68802F6F.url = media/popup_035EFCED_1641_0953_41B3_A79957FFFEF6_en_0_2.webp
+imlevel_0178F566_1643_3B51_41B1_3A263F642E2E.url = media/popup_0364DADC_1641_0972_41B2_108C637ED8C1_en_0_0.webp
+imlevel_0178C567_1643_3B5F_418A_2F92251B2B7A.url = media/popup_0364DADC_1641_0972_41B2_108C637ED8C1_en_0_1.webp
+imlevel_0178A568_1643_3B51_41B1_A1AF88CC2C59.url = media/popup_0364DADC_1641_0972_41B2_108C637ED8C1_en_0_2.webp
+imlevel_019F83D2_1643_1F71_4184_2FEED77881BB.url = media/popup_037FA501_1643_38D2_41A5_9F7830FC27EF_en_0_0.webp
+imlevel_019FB3D3_1643_1F77_418D_25E23A0342FA.url = media/popup_037FA501_1643_38D2_41A5_9F7830FC27EF_en_0_1.webp
+imlevel_019F53D3_1643_1F77_417C_177D7E618B02.url = media/popup_037FA501_1643_38D2_41A5_9F7830FC27EF_en_0_2.webp
+imlevel_01855C8A_1643_09D6_41B2_0931C4375BBD.url = media/popup_039F1B69_1641_0F52_41B5_3B6A75278850_en_0_0.webp
+imlevel_01854C8A_1643_09D6_41AC_43E809E5C544.url = media/popup_039F1B69_1641_0F52_41B5_3B6A75278850_en_0_1.webp
+imlevel_01851C8A_1643_09D6_41B4_5CC3BC505787.url = media/popup_039F1B69_1641_0F52_41B5_3B6A75278850_en_0_2.webp
+
+### Popup Image
 
 ### Title
-panorama_768DEAD5_6CF8_3224_41A5_1424D36CB204.label = 360Demo-Museum-NP1
-panorama_75FBE3F1_6CF8_31FD_41DA_1432535E97ED.label = 360Demo-Museum-NP2
-panorama_75EE67DF_6CF8_7225_41CD_491B04DC7E6E.label = 360Demo-Museum-NP3
-panorama_75E39388_6CF8_122B_41BB_F8EFB81C0D8F.label = 360Demo-Museum-NP4
-panorama_75F21EC4_6CF8_3224_41B9_39E525047D18.label = 360Demo-Museum-NP5
-panorama_7561E500_6CFB_F61B_41D1_F6A93F73B6A8.label = 360Demo-Museum-NP6
-panorama_75CD40E3_6CF8_0E1D_41D8_81BE9210E1B5.label = 360Demo-Museum-NP7
+panorama_F9A17E59_F787_352E_41E7_D751DC536FB3.label = 360Demo-Museum-NP1
+panorama_F2A97D63_FC4E_F57C_41E3_CF5EE30DEA99.label = 360Demo-Museum-NP2
+panorama_F21D9FD2_FC4E_555F_41C2_FE5136409C31.label = 360Demo-Museum-NP3
+panorama_FA335049_F787_CD2E_41DA_8446942E5D38.label = 360Demo-Museum-NP4
+panorama_FA29329D_F787_4D26_41EE_69DB124946EB.label = 360Demo-Museum-NP5
+panorama_FA2ED5CE_F787_3722_41E2_142E6CCAEF4C.label = 360Demo-Museum-NP6
+panorama_FA2806CD_F786_F526_41EB_4A232A64E2B7.label = 360Demo-Museum-NP7
 model_7FC69B85_675B_629E_41CF_D297DBF35139.label = 360Demo-Titanic-Mdl-SpeedTelegraph-ALL
+model_D2221184_C4D4_57E9_41D8_787D7E5BB18A.label = 360Demo-mag-mdl-magNo1
+model_D738CFC3_C4CC_2B6F_41E7_2A795A81596B.label = 360Demo-wheel-mdl-wheel12
+model_D45D284D_C4F4_357B_41D5_3F170FEF2BBE.label = 360Demo-wheel-mdl-wheel2
 panorama_E497C0CE_F6CE_3286_41E1_C870210091F1.label = Altar
+video_C4FD11C2_D80D_23A3_41E9_5941638C51D4.label = Character-H2
 video_705DA422_67D9_E59B_41D8_F19DF64118F4.label = Character-H4
-panorama_7129B866_7C9A_6945_41D4_66A8DC94760E.label = Expo1
-panorama_71C13A34_7C9B_A8C5_41BC_A0E546E8BCB7.label = Expo2
-panorama_71FE7E1E_7C9B_E8C5_41DA_C41318C0FD3D.label = Expo3
-panorama_71C11333_7C9B_B8C3_41CF_E525232873FF.label = Expo4
-panorama_71FBFC7F_7C9A_6943_41DB_0BC7CC434C76.label = Expo5
-panorama_71FA76AF_7C9A_99C3_41C7_ECA569CBDD52.label = Expo6
-panorama_71F68361_7C9A_BF7F_41D6_811390495E8E.label = Expo7
-panorama_7184DABF_7C9D_A9C3_41D6_220DE33EC602.label = Lobby1
-panorama_710E62E6_7C9A_9945_41DA_46A9CF6239FE.label = Lobby2
-panorama_71E9B1B9_7C9A_9BCF_41C2_7DF0BF457427.label = Lobby3
-panorama_755A7E17_674A_E5B9_41D6_61DF92B56EEA.label = Museum1
-panorama_776B19DA_674B_6EAB_41D8_35228DD96181.label = Museum2
-panorama_6E5FE295_628E_A9DB_41D5_0AB419B0EF48.label = Museum3
-panorama_6E5FCBEB_628F_7F48_41C8_1B3196D2CA92.label = Museum4
-panorama_6E56D83E_628F_D8C8_41CF_C44EF68BF044.label = Museum5
-panorama_6E455F20_628F_D8F8_41C2_0F7B4F0D465A.label = Museum6
-panorama_7E135BE0_6C68_721B_41CF_93809AE6FB12.label = Museum7
-panorama_6F8AFCC7_628D_B9B8_41D3_3423493BF5C7.label = Showroom
+video_1936B017_16C1_18FF_41B4_FD2079365E36.label = EXPO_StreamTemplate
+video_C1EEF5DC_D814_E3A0_41DE_D849F51CF288.label = Engine Telegraphs_ How Did They Work_ _ Nautical Tales
+video_CF4CFBEE_D814_E763_41AB_D1FA3C56F4AB.label = Escape Rooms_ Everything You Need To Know
+panorama_20015CBC_30F0_C929_41B4_C4C59C4C829F.label = Expo1
+panorama_208DE613_30F0_58FE_41C0_F0684419ECDA.label = Expo2
+panorama_20AFE12A_30F1_FB2E_41C5_F165583A377C.label = Expo3
+panorama_20A43718_30F0_38E9_41BD_9983A780E886.label = Expo4
+panorama_20A3FC35_30F0_493B_4168_7C33C25415A5.label = Expo5
+panorama_20AF0488_30F0_D9EA_41BC_8601803F6F33.label = Expo6
+panorama_20B9187A_30F0_C929_41C0_EE5844F774B2.label = Expo7
+video_CF48D152_D817_20A3_41E3_F352AB160842.label = HOW did they STEER the Titanic_
+panorama_FA48DC6A_F77F_55E2_41DC_1B950D7CFB93.label = Lobby1
+panorama_FAD8E640_F77F_351E_41E4_5E4E0511A6F8.label = Lobby2
+panorama_FADC59E0_F77E_FF1E_41E8_CFD82F284AD6.label = Lobby3
+video_398D43A5_207B_4205_4185_73B486E8E8A8.label = Looking 4 app is now available! Finally!
+panorama_F94E9035_F77D_4D66_41EA_2FD852D8D595.label = Museum1
+panorama_FACE57F3_F77D_52E2_41E7_63CCB3142DED.label = Museum2
+panorama_FA241B5A_F782_D322_4172_58E40F7C1A29.label = Museum3
+panorama_FA76DE17_F783_3522_41E6_3F3812C117DF.label = Museum4
+panorama_FA2663B9_F783_D36E_41C8_F7A66679F30B.label = Museum5
+panorama_FA26F79C_F783_5326_41DC_E617C6A0953E.label = Museum6
+panorama_FA217B26_F783_5362_419C_6BA1C1646477.label = Museum7
+panorama_18A62DBD_16C7_0B33_41B1_C173F58B9167.label = Showroom
 
 ### Video
-videolevel_AB1DEF04_B4EB_D8DF_41E0_6A3AFFBC9207.url = media/video_705DA422_67D9_E59B_41D8_F19DF64118F4_en.mp4
-videolevel_AB1DEF04_B4EB_D8DF_41E0_6A3AFFBC9207.posterURL = media/video_705DA422_67D9_E59B_41D8_F19DF64118F4_poster_en.jpg
+videolevel_25551099_3109_99E5_41C4_6A866DB7C996.url = media/video_1936B017_16C1_18FF_41B4_FD2079365E36_en.mp4
+videolevel_25551099_3109_99E5_41C4_6A866DB7C996.posterURL = media/video_1936B017_16C1_18FF_41B4_FD2079365E36_poster_en.jpg
+videolevel_2557C121_3109_9B25_419A_4635F462E028.url = media/video_398D43A5_207B_4205_4185_73B486E8E8A8_en.mp4
+videolevel_2557C121_3109_9B25_419A_4635F462E028.posterURL = media/video_398D43A5_207B_4205_4185_73B486E8E8A8_poster_en.jpg
+videolevel_25485F94_3109_67E3_41C1_A3A58B1E3E3F.url = media/video_705DA422_67D9_E59B_41D8_F19DF64118F4_en.mp4
+videolevel_25485F94_3109_67E3_41C1_A3A58B1E3E3F.posterURL = media/video_705DA422_67D9_E59B_41D8_F19DF64118F4_poster_en.jpg
+videolevel_254CDE02_3109_68E6_41A1_E3A74617EE8B.url = media/video_C1EEF5DC_D814_E3A0_41DE_D849F51CF288_en.mp4
+videolevel_254CDE02_3109_68E6_41A1_E3A74617EE8B.posterURL = media/video_C1EEF5DC_D814_E3A0_41DE_D849F51CF288_poster_en.jpg
+videolevel_254E3F4C_3109_6763_41C5_9A28CF36450C.url = media/video_C4FD11C2_D80D_23A3_41E9_5941638C51D4_en.mp4
+videolevel_254E3F4C_3109_6763_41C5_9A28CF36450C.posterURL = media/video_C4FD11C2_D80D_23A3_41E9_5941638C51D4_poster_en.jpg
+videolevel_254FCF08_3109_68E3_41BB_510D79F8BA7B.url = media/video_CF48D152_D817_20A3_41E3_F352AB160842_en.mp4
+videolevel_254FCF08_3109_68E3_41BB_510D79F8BA7B.posterURL = media/video_CF48D152_D817_20A3_41E3_F352AB160842_poster_en.jpg
+videolevel_254F4EA2_3109_6926_4180_DD256EF83628.url = media/video_CF4CFBEE_D814_E763_41AB_D1FA3C56F4AB_en.mp4
+videolevel_254F4EA2_3109_6926_4180_DD256EF83628.posterURL = media/video_CF4CFBEE_D814_E763_41AB_D1FA3C56F4AB_poster_en.jpg
 
 ### Video Subtitles
 
 ## Skin
 
 ### Button
+Button_D317F3C6_C43C_DB69_41E6_6EB73DEDDBCE.label = BUY NOW
 Button_4D37C4F9_6C78_F7ED_41D8_D852D1A647F6.label = NO
 Button_7B3CE3D7_6CB8_1225_41C2_DB2DCA213BF4.label = NO
 Button_7A5DE52A_6CB8_366F_41D4_8646C6529650.label = YES
 Button_4D3104F3_6C78_F7FD_41D2_35BA34A4A529.label = YES
 
+### Label
+Label_086D8BBD_11BC_9E49_41A0_59A431D9BFAE.text = A cry for help at night, beeping out of sight.
+Label_0B02A1F7_11BC_8DD9_41A8_0319283DB6B1.text = A dot in the sea, where lies a great tragedy.
+Label_08E6B205_11BD_8E39_41B0_9E3A44A351CD.text = Ice isn't nice, go port side!
+Label_0DF8AAB6_11BB_9E5A_4198_E1C170BC3A3E.text = One of four is not blowing in the wind. 
+Label_DC9717DC_C4DD_DB19_41E4_DF2B1D1E6C6C.text = THIS IS THE FIST MAG
+Label_0F5F4F24_1197_9644_41AF_E357EA2A857B.text = To fast is the hare, only the turtle gets there.
+
 ### Multiline Text
+HTMLText_7A6F5113_6CA8_0E3D_41C5_CF8024A69E53.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:13px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="line-height:112%;text-align:center;font-size:13px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:13px;font-family:Tahoma, Geneva, sans-serif;"><B>Do you want </B></SPAN></SPAN></DIV><DIV STYLE="line-height:112%;text-align:center;font-size:13px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:13px;font-family:Tahoma, Geneva, sans-serif;"><B>to start the escape room experience?</B></SPAN></SPAN></DIV></div>
 HTMLText_4D3A24F0_6C78_F7FB_41DB_0A9AD8A1D245.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:16px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>Do you want </B></SPAN></SPAN></DIV><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>to leave the escape room experience?</B></SPAN></SPAN></DIV></div>
-HTMLText_7A6F5113_6CA8_0E3D_41C5_CF8024A69E53.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:16px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>Do you want </B></SPAN></SPAN></DIV><DIV STYLE="line-height:116%;text-align:center;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:Tahoma, Geneva, sans-serif;"><B>to start the escape room experience?</B></SPAN></SPAN></DIV></div>
-HTMLText_7A57D6D2_6CA8_123F_41D8_27AB81172B55.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
 HTMLText_4D3A74EE_6C78_F7E7_41D9_C89F8CAB2541.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:14px;"><BR STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;"/></p></div>
 
 ## Tour
