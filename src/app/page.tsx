@@ -5,6 +5,7 @@ import { useRef } from "react";
 
 import OverlayContainer from "@/components/OverlayContainer";
 import WidgetOverlay from "@/components/WidgetOverlay";
+import ChatWidget from "@/components/ChatWidget";
 
 export default function Page() {
   // keep the iframe ref nullable
@@ -30,6 +31,7 @@ export default function Page() {
       {/* pass the same ref down */}
       <OverlayContainer iframeRef={tourRef} />
       <WidgetOverlay />
+      <ChatWidget />
     </div>
   );
 }
